@@ -23,8 +23,8 @@ import socket
 import openocd
 import shutil
 
-serial ='13678/00110029'
-KM=0
+serial ='25702/00591506'
+KM=200
 
 def word2bytes(word):
  result=[(word)&0xff,(word>>8)&0xff,(word>>16)&0xff,(word>>24)&0xff]
